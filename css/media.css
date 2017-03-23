@@ -1,0 +1,87 @@
+
+/* Responsive CSS Grid */
+
+@media only screen and (max-width: 992px){
+
+    .conteiner{
+        width:600px;
+    }
+
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12 { width: 600px;}
+
+    .navigation ul {
+        text-align: center;
+    }
+
+}
+
+
+@media only screen and (max-width: 768px){
+    .conteiner{
+        width:300px;
+    }
+
+    .span1,
+    .span2,
+    .span3,
+    .span4,
+    .span5,
+    .span6,
+    .span7,
+    .span8,
+    .span9,
+    .span10,
+    .span11,
+    .span12 { width: 300px;}
+
+
+    .header{
+        height: 350px;
+    }
+
+    #slider{
+        display: none;
+    }
+
+    .logo{
+        text-align: center;
+    }
+
+    .navigation{
+        text-align: center;
+    }
+
+    .navigation ul {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    .navigation ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .content{
+        padding-top: 35px;
+    }
+
+    .text h4 {
+        margin-top: 20px;
+    }
+
+    .copyright{
+        padding-left: 100px;
+    }
+
+}
